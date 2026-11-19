@@ -1,13 +1,14 @@
 {
-  "name": "sw627-storefront",
+  "name": "sw627-api",
   "version": "1.0.0",
-  "description": "SW627 admin-curated replica storefront for Manila & QC",
+  "description": "SW627 API — admin-curated replica storefront (Manila & QC only)",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "node --watch server.js"
   },
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
   }
 }
