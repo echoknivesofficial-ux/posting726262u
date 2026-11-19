@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Uploaded images — don't commit user/admin uploads
+uploads/*
+!uploads/.gitkeep
+
+# Local data files — don't commit order/item data
+data/*.json
+!data/.gitkeep
+
+# Logs / OS
+*.log
+.DS_Store
